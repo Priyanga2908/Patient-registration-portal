@@ -1,0 +1,98 @@
+/* Add the following CSS code to style the form and align label elements */
+.wrap{
+    
+    
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    
+    background: rgba(255, 255, 255, 0.9); /* Background color for the form box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style the label elements */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.lo select,.cd select{
+    width: 83%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+/* Style the input and select elements */
+ input[type="text"],
+ input[type="password"],
+ input[type="date"],
+ input[type="time"],
+ input[type="tel"],
+ textarea,
+ input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the gender and date of birth elements */
+ input[type="radio"] {
+    margin-right: 10px;
+}
+
+ input[type="date"] {
+    width: auto; /* Adjust the width for the date input */
+}
+
+
+ button[type="submit"] {
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: block; /* Make the button a block element for full width */
+    margin: 0 auto; /* Center the button */
+}
+
+
+.contai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.adh
+{
+    text-align: center;
+}
+body{
+    background-image: url('img2.avif');
+    background-size: cover;
+}
+button:hover{
+    
+    background-color: rgb(120, 229, 229);
+}
+.success
+{
+    color:green;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(25, 178, 127);
+}
